@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.carvalhonm" name="Carvalho NM's Kodi Repository" version="1.0.0" provider-name="carvalhonm">
+    <extension point="xbmc.addon.repository" name="Carvalho NM's Kodi Repository">
+        <info compressed="false">https://raw.githubusercontent.com/carvalhonm/kodi-repository/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/carvalhonm/kodi-repository/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/carvalhonm/kodi-repository/main/</datadir>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Repository for Carvalho NM's Kodi Add-ons</summary>
+        <description lang="en">This repository contains Kodi add-ons developed by Carvalho NM.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
