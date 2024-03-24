@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.carvalhonm" name="Carvalho NM's Kodi Repository" version="1.0.0" provider-name="carvalhonm">
-    <extension point="xbmc.addon.repository" name="Carvalho NM's Kodi Repository">
-        <info compressed="false">https://raw.githubusercontent.com/carvalhonm/kodi-repository/main/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/carvalhonm/kodi-repository/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/carvalhonm/kodi-repository/main/</datadir>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info compressed="false">https://carvalhonm.github.io/kodi-repository/addons.xml</info>
+            <checksum>https://carvalhonm.github.io/kodi-repository/addons.xml.md5</checksum>
+            <datadir>https://carvalhonm.github.io/kodi-repository/zips/</datadir>
+        </dir>
         <assets>
             <icon>icon.png</icon>
         </assets>

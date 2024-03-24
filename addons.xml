@@ -21,6 +21,9 @@
             </assets>
             <news>Updated with latest artwork metadata</news>
         </extension>
+        <extension point="xbmc.addon.repository">
+            <info compressed="false">https://carvalhonm.github.io/kodi-repository/zips/plugin.carvanm.videoplaylist/3.0.0/plugin.carvanm.videoplaylist-3.0.0.zip</info>
+        </extension>
     </addon>
     <!-- Any additional add-on entries would go here -->
 </addons>
